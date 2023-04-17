@@ -1,3 +1,6 @@
+#Author: miracle3orz
+#US Bikeshare System Data project
+
 import time
 import pandas as pd
 import numpy as np

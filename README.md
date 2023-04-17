@@ -2,7 +2,7 @@
 My first python project of Udacity
 
 ## Project Details
-In this preject, you will see how to check the Data from the Bicycle-Sharing systems
+In this preject, you will see how to check the Data from the _Bicycle-Sharing systems_ of USA
 
 ## The Datasets
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
@@ -71,6 +71,3 @@ This project explores Bike share data from 3 differents cities; it uses data fro
     - chicago.csv
     - new_york_city.csv
     - washington.csv
-
-## Upadata Change 
-change for section III
