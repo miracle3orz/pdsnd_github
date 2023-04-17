@@ -159,7 +159,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_raw_data(df):
+def display_raw(df):
     """ Your docstring here """
     i = 0
     raw = input("\nDo you want to view the data? Enter yes or no.\n").lower()
@@ -168,10 +168,10 @@ def display_raw_data(df):
         if raw == 'no':
             break
         elif raw == 'yes':
-            print(df[i: i + 5])  # TO DO: appropriately subset/slice your dataframe to display next five rows
+            print(df[i: i + 5])  # Display next five rows
             raw = input( "\nWould you like to see 5 more rows of the raw data? "
-                    "Type 'Yes' or 'No': ").lower()  # TO DO: convert the user input to lower case using lower() function
-            i += 5
+                    "Type 'Yes' or 'No': ").lower() 
+            i += 5 # If yes then display next five rows
         else:
             raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
 
@@ -185,7 +185,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        display_raw_data(df)
+        display_raw(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() == "no":
